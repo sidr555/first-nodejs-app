@@ -4,5 +4,9 @@
  */
 
 exports.list = function(req, res){
-  res.send("respond with a resource");
+  res.send("user list will be here soon");
+};
+
+exports.getSid = function(req, res){
+  res.send("Sid is listening...");
 };
